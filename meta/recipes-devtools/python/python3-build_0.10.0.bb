@@ -21,3 +21,5 @@ do_compile:prepend:class-native() {
 RDEPENDS:${PN} += "python3-packaging python3-pyproject-hooks"
 
 BBCLASSEXTEND = "native nativesdk"
+
+SKIP_PYTHON_RDEP = "1"

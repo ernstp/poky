@@ -26,3 +26,5 @@ do_install:prepend:class-native() {
 }
 
 BBCLASSEXTEND = "native nativesdk"
+
+SKIP_PYTHON_RDEP = "1"

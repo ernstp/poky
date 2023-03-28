@@ -35,3 +35,5 @@ FILES:${PN}-tests += "\
 "
 
 BBCLASSEXTEND = "native nativesdk"
+
+SKIP_PYTHON_RDEP = "1"

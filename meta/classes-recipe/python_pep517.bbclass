@@ -59,3 +59,5 @@ python_pep517_do_bootstrap_install () {
 }
 
 EXPORT_FUNCTIONS do_configure do_compile do_install
+
+inherit python_rdep

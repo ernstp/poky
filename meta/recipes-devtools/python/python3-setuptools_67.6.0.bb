@@ -53,3 +53,5 @@ RDEPENDS:${PYTHON_PN}-pkg-resources = "\
 # This used to use the bootstrap install which didn't compile. Until we bump the
 # tmpdir version we can't compile the native otherwise the sysroot unpack fails
 INSTALL_WHEEL_COMPILE_BYTECODE:class-native = "--no-compile-bytecode"
+
+SKIP_PYTHON_RDEP = "1"
