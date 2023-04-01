@@ -14,4 +14,11 @@ do_compile:prepend() {
     export PYTHONPATH=src
 }
 
+RDEPENDS:${PN} += " \
+    ${PYTHON_PN}-editables \
+    ${PYTHON_PN}-packaging \
+    ${PYTHON_PN}-pathspec \
+    ${PYTHON_PN}-pluggy \
+"
+
 BBCLASSEXTEND = "native nativesdk"
