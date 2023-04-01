@@ -20,6 +20,7 @@ DEPENDS += " \
 RDEPENDS:${PN} += "\
     ${PYTHON_PN}-doctest \
     ${PYTHON_PN}-extras \
+    ${PYTHON_PN}-fixtures \
     ${PYTHON_PN}-pbr \
     ${PYTHON_PN}-six \
     "
